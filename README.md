@@ -1,4 +1,4 @@
-#Password Encryption Tester
+# Password Encryption Tester
 # Goal:
 To Encrypt data containing the emails and passwords of a webpage to keep the secure. Also to implement an information tester, seeing if the information matches each other.
 
