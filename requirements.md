@@ -1,5 +1,7 @@
 # Requirements:
 
-There is a file named password.txt. This file contains emails and passwords for users on a webpage. This file needs to be encrypted to password.enc.txt. Then, it will need to be uploaded into a MongoDB database by using Mongoose.
+1. I want to store upwards of 10 passwords and ensure that all of the passwords will be encrypted for protection in hash format stored in a file named password.enc.txt. These email/password combinations should originate from password.txt.
 
-When you enter in an email and password, if the two are a match in the database, it should return true. If they are not a match, something is not present in the database, or if there is missing data in the entry, it should return false.
+2. I want this information to be stored in a MongoDB database by use of Mongoose.
+
+3. I want a tester that will return a Boolean true or false value based on the email and/or password entered. It should return true if the email is present in the database and the password entered matches the decrypted value. If an email is not present in the file or the password does not match the email, or if no password was entered, return false.
