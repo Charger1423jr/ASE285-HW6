@@ -5,8 +5,8 @@
 ## Schedule:
 ### Plan:
 #### Week 1 (Due April 11th):
-1. Produce a password.txt containing information
-2. Encrypt password.txt
+1. Produce a password.txt containing information of 10 emails and passwords
+2. Encrypt password.txt using createpassword.js
 3. Store data into MongoDB
 #### Week 2 (April 18th):
 4. Create a Node.js/JavaScript Application to allow entry of information that tests if information matches
