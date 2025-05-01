@@ -32,4 +32,4 @@ Expected Output: `Data uploaded to MongoDB.`
 ### Verify Credentials
 1. For a single email check, run `node src/passwordjs.js <encFile> <email> <password>` (Example: `node src/passwordjs.js password.enc.txt sm.cho@hello.com 123456`)
 Expected Output: `true`
-3. For full file testing, run command `./acceptance.bat`. This will run through all the commands posted. Currently, it will return 10 `true` and 4 `false`
+3. For multiple email testing, run command `./acceptance.bat`. This will run through all the commands located within the `.bat` file (Modify as needed). Currently, it will return 10 `true` and 4 `false`
