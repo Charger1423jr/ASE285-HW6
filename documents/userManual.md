@@ -20,8 +20,9 @@ and test if the encryption process worked.
 
 ## Operation
 ### Run Tests
-1. In your terminal, enter `npm test`
-2. Wait for the test to complete, and see the outcome of the two files. If both pass, test was successful.
+1. In your terminal, `cd` to the `/code` folder and enter command `npm install` to get required files
+2. After installation, enter command `npm test`. WARNING: If MongoDB Collection is not Empty upon running this test, ./makepassword.test.js will fail.
+3. Wait for the test to complete, and see the outcome of the two files. If both pass, test was successful.
 
 ### Generate Encrypted Passwords
 1. In your terminal, `cd` to `ASE285-HW6/code` where the `/src` folder is located.
