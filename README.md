@@ -26,7 +26,3 @@ Burndown Rate:
 - April 12th - Create MongoDB Database collection for assignment. Test Integrations so far and ensure database is properly connected.
 - April 14th - Develop `passwordjs.js` so that it tests the encrypted passwords to see if they match the stored passwords.
 - April 15-May 1st - Check over and perform bug fixes. Upload all files to Github for Submission.
-
-Test Coverage: 
-- April 12th - `password.txt` encrypted through `createpassword.js` properly and the email with hashed password was stored in MongoDB database
-- April 14th - Test `passwordjs.js` to ensure it is reading the files properly and relaying correct responses.
