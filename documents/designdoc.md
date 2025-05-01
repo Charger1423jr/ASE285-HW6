@@ -14,4 +14,4 @@ utility.js --> Main Functions used in other files
 Data Stored (Encrypted): password.enc.txt
 
 ### Architecture Diagram
-Check 'Diagram.png'
+Check 'design.png'
