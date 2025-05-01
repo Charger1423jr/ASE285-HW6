@@ -24,8 +24,9 @@ and test if the encryption process worked.
 2. Wait for the test to complete, and see the outcome of the two files. If both pass, test was successful.
 
 ### Generate Encrypted Passwords
-1. In your terminal, `cd` to the location of the files.
-2. run command `node src/makepassword.js` to take input of password.txt. This information will be sent to your created MongoDB Cluster, if linked properly.
+1. In your terminal, `cd` to `ASE285-HW6/code` where the `/src` folder is located.
+2. Ensure your `.env` folder is present here and has the correct MongoDB link listed for `MONGO_URI`
+3. run command `node src/makepassword.js` to take input of password.txt. This information will be sent to your created MongoDB Cluster, if linked properly.
 Expected Output: `Data uploaded to MongoDB.`
 
 ### Verify Credentials
